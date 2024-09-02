@@ -1,10 +1,6 @@
-package org.example.numeralTests;
-
-import org.example.NumeralConverter;
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.example.AssertUtils.assertThrowsOrReturnsNull;
+import src.main.java.org.example.NumeralConverter;
 
 public class NumeralConverterToRomanTest {
 
@@ -21,19 +17,19 @@ public class NumeralConverterToRomanTest {
 
     @Test
     public void testInvalidArabic() {
-        assertThrowsOrReturnsNull(
+        AssertUtils.assertThrowsOrReturnsNull(
                 () -> NumeralConverter.toRoman(Integer.MIN_VALUE), Exception.class);
 
-        assertThrowsOrReturnsNull(
+        AssertUtils.assertThrowsOrReturnsNull(
                 () -> NumeralConverter.toRoman(-1), Exception.class);
 
-        assertThrowsOrReturnsNull(
+        AssertUtils.assertThrowsOrReturnsNull(
                 () -> NumeralConverter.toRoman(0), Exception.class);
 
-        assertThrowsOrReturnsNull(
+        AssertUtils.assertThrowsOrReturnsNull(
                 () -> NumeralConverter.toRoman(4000), Exception.class);
 
-        assertThrowsOrReturnsNull(
+        AssertUtils.assertThrowsOrReturnsNull(
                 () -> NumeralConverter.toRoman(Integer.MAX_VALUE), Exception.class);
     }
     @Test

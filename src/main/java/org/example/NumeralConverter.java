@@ -1,6 +1,4 @@
-package org.example;
-
-import java.util.Map;
+package src.main.java.org.example;
 
 public class NumeralConverter {
     public static String toRoman(int num) {
@@ -24,6 +22,6 @@ public class NumeralConverter {
     }
 
     public static Integer fromRoman(String roman) {
-        return null;
+        throw new RuntimeException();
     }
 }
