@@ -4,7 +4,7 @@ import src.main.java.org.example.NumeralConverter;
 
 public class NumeralConverterToRomanTest {
 
-    @org.junit.Test
+    @Test
     public void testToRoman() {
         testInvalidArabic();
 
