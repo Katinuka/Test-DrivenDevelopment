@@ -1,5 +1,5 @@
 /**
- * This is code is from https://github.com/Katinuka/Test-DrivenDevelopment
+ * This code is from https://github.com/Katinuka/Test-DrivenDevelopment
  */
 import org.junit.Assert;
 import org.junit.Test;
