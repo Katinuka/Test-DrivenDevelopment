@@ -12,7 +12,7 @@
         <module>01-IntegerToRomanJUnit4</module>
         <module>02-RomanToIntegerJUnit5</module>
         <module>_03-CompanyServiceJUnit5</module>
-        <module>_04-BasicHTTPRequests</module>
+        <module>_04-05-BasicHttpRequests</module>
     </modules>
 
     <properties>
@@ -25,6 +25,12 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.7.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.tngtech.archunit</groupId>
+            <artifactId>archunit</artifactId>
+            <version>1.0.1</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>

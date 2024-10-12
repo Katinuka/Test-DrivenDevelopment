@@ -4,6 +4,7 @@
 package org.example.model;
 
 import lombok.*;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
@@ -14,6 +15,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @ToString
 @Document
 public class Book {
+    @Id
     private String id;
     private String name;
     private String author;
